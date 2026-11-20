@@ -20,7 +20,7 @@ _WEAK void wifi_set_user_config(void)
 	wifi_user_config.softap_addr_offset_idx = 1;
 	wifi_user_config.fast_reconnect_en = 1;
 	wifi_user_config.auto_reconnect_en = 1;
-	wifi_user_config.auto_reconnect_count = 10;
+	wifi_user_config.auto_reconnect_count = 0xFF;
 	wifi_user_config.auto_reconnect_interval = 5;
 	wifi_user_config.no_beacon_disconnect_time = 9; /* unit 2s, default 18s */
 
